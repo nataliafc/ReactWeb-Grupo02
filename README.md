@@ -1,4 +1,4 @@
-# ReactWeb-Grupo01
+# ReactWeb-Grupo02
 <span>
   <img src="https://img.shields.io/static/v1?label=React&message=ReactJS&color=blue&style=for-the-badge&logo=React"/>  
   <img src="https://img.shields.io/static/v1?label=Styled-Components&message=Styles&color=violet&style=for-the-badge&logo=styled-components"/>
