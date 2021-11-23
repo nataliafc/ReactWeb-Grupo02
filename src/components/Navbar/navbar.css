@@ -1,17 +1,24 @@
 .navbar {
     height: 50px;
     width: 100%;
+    margin: 0;
     background-color: coral;
     color: aliceblue;
     display: flex;
     justify-content: space-between;
-    align-items: center;
+    align-items: right;
     padding: 2rem;
     font-size: 1.2rem;
 }
 
-.nav-links {
+.nav-logo{
+    text-decoration: none;
+    color: white;
+}
+
+.nav-links{
     display: grid;
+    grid-gap: 20px;
     grid-template-columns: repeat(4, auto);
     list-style: none;
 }

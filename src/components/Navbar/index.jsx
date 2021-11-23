@@ -9,6 +9,11 @@ function Navbar() {
         <nav className='navbar'>
             <ul className={open ? 'nav-links active' : 'nav-links'}>
                 <li className='nav-item'>
+                    <Link to='/' className='nav-logo' onClick={() => setOpen(false)}>
+                        Logo
+                    </Link>
+                </li>
+                <li className='nav-item'>
                     <Link to='/' className='nav-link' onClick={() => setOpen(false)}>
                         Home
                     </Link>
