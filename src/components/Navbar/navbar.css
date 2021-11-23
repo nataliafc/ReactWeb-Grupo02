@@ -1,0 +1,27 @@
+.navbar {
+    height: 50px;
+    width: 100%;
+    background-color: coral;
+    color: aliceblue;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 2rem;
+    font-size: 1.2rem;
+}
+
+.nav-links {
+    display: grid;
+    grid-template-columns: repeat(4, auto);
+    list-style: none;
+}
+
+.nav-link {
+    text-decoration: none;
+    color: white;
+    transition: 0.3s;
+}
+
+.nav-link:hover {
+    color: deeppink;
+}
