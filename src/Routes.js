@@ -7,7 +7,7 @@ import Home from './Pages/Home';
 import Carrinho from "./components/Cart";
 import Sobre from "./components/About";
 import Contato from "./components/Contact";
-import Navbar from "./components/Navbar"
+import NavBar from "./components/Navbar"
 import Header from "./components/Header";
 
 
@@ -16,7 +16,7 @@ function Routes() {
     <BrowserRouter>
 
     <Header/>
-    <Navbar />
+    <NavBar />
       <Switch>
         <Route path="/" exact component={Home} />
         <Route path="/carrinho" exact component={Carrinho} />
