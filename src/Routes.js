@@ -9,6 +9,7 @@ import Sobre from "./components/About";
 import Contato from "./components/Contact";
 import NavBar from "./components/Navbar"
 import Header from "./components/Header";
+import Produto from "./components/Produto";
 
 
 function Routes() {
@@ -17,6 +18,7 @@ function Routes() {
 
     <Header/>
     <NavBar />
+    <Produto/>
       <Switch>
         <Route path="/" exact component={Home} />
         <Route path="/carrinho" exact component={Carrinho} />
