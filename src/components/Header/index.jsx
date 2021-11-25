@@ -1,5 +1,5 @@
 import React from "react";
-import styles from './stiyleHeader.css';
+import styles from './styleHeader.css';
 import Funko from '../../Assets/imagemHeader/images.png'
 import styled from 'styled-components';
 
