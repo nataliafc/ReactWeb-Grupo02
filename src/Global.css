@@ -10,3 +10,15 @@ body{
     color: white;
     text-align: center;
 }
+
+footer {
+    background-color: #222;
+    color: gray;
+    text-align: center;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    padding: 25
+px
+;
+}
