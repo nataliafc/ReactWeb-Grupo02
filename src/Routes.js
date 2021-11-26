@@ -1,4 +1,4 @@
-import React from "react";
+import React from 'react';
 import { BrowserRouter, Switch, Route } from "react-router-dom";
 
 
@@ -10,15 +10,16 @@ import Contato from "./components/Contact";
 import NavBar from "./components/Navbar"
 import Header from "./components/Header";
 import Produto from "./components/Produto";
+import Footer from "./components/Footer";
 
 
 function Routes() {
   return (
     <BrowserRouter>
 
-    <Header/>
-    <NavBar />
-    <Produto/>
+      <Header />
+      <NavBar />
+      <Produto />
       <Switch>
         <Route path="/" exact component={Home} />
         <Route path="/carrinho" exact component={Carrinho} />
@@ -26,6 +27,7 @@ function Routes() {
         <Route path="/contato" exact component={Contato} />
 
       </Switch>
+      <Footer />
     </BrowserRouter>
   );
 }
