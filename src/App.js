@@ -1,13 +1,21 @@
-import React from 'react';
 
+import Home from './Pages/Home'
+import React from 'react';
+import './Global.css'
 import Routes from './Routes';
 
-import './Global.css'
+import "./Global.css"
 
 function App() {
-  return (
-    <Routes />
-  );
+  return (<>
+   <Home/>
+<Routes />
+
+
+</>
+
+  )
+
 }
 
 export default App;

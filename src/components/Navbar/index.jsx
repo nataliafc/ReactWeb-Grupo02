@@ -1,41 +1,27 @@
-import React, { useState } from 'react';
+import React from 'react';
+import styles from './navbar.css';
 import { Link } from 'react-router-dom';
-import './navbar.css'
+import styled from 'styled-components';
 
-function Navbar() {
-    const [open, setOpen] = useState(true);
 
-    return (
-        <nav className='navbar'>
-            <ul className={open ? 'nav-links active' : 'nav-links'}>
-                <li className='nav-item'>
-                    <Link to='/' className='nav-logo' onClick={() => setOpen(false)}>
-                        Logo
-                    </Link>
-                </li>
-                <li className='nav-item'>
-                    <Link to='/' className='nav-link' onClick={() => setOpen(false)}>
-                        Home
-                    </Link>
-                </li>
-                <li className='nav-item'>
-                    <Link to='/sobre' className='nav-link' onClick={() => setOpen(false)}>
-                        Sobre
-                    </Link>
-                </li>
-                <li className='nav-item'>
-                    <Link to='/contato' className='nav-link' onClick={() => setOpen(false)}>
-                        Contato
-                    </Link>
-                </li>
-                <li className='nav-item'>
-                    <Link to='/carrinho' className='nav-link' onClick={() => setOpen(false)}>
-                        Carrinho
-                    </Link>
-                </li>
-            </ul>
-        </nav>
-    );
-}
+const NavBar = () => (
+  <nav id="navHeader" className="NavBar">
+    <ul>
+      <li className="navButtons">
+        <Link to="/"><a>Inicio</a></Link>
+      </li>
+      <li className="navButtons">
+        <Link to="/sobre"><a>Sobre</a></Link>
+      </li>
+      <li className="navButtons">
+        <Link to="/contato"><a>Contato</a></Link>
+      </li>
+      <li className="navButtons">
+        <Link to="/carrinho"><a>Carrinho</a></Link>
+      </li>
+    </ul>
+    
+  </nav>
+);
 
-export default Navbar;
+export default NavBar;
